@@ -11,13 +11,15 @@
         "start": "node dist/index.js",
         "test": "vitest"
     },
-    "keywords": [],
+    "keywords": [
+        "template",
+        "npm"
+    ],
     "author": "huanxiaomang",
     "license": "ISC",
     "devDependencies": {
         "tsup": "^8.1.0",
         "typescript": "^5.5.3",
         "vitest": "^0.34.6"
-    },
-    "gitHead": "bdcdf27658359fe8b0851ed52f1c9f92732d0d5d"
+    }
 }
