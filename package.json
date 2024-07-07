@@ -9,7 +9,8 @@
         "dev": "tsup --watch --onSuccess \"pnpm start\"",
         "build": "tsup --minify ",
         "start": "node dist/index.js",
-        "test": "vitest"
+        "test": "vitest",
+        "release": "npm run typecheck && release-it"
     },
     "keywords": [
         "template",
