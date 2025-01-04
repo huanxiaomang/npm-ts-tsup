@@ -1,26 +1,29 @@
 {
-    "name": "npm-ts-tsup-template",
-    "version": "0.0.1",
-    "description": "",
-    "file": [
-        "dist"
-    ],
-    "scripts": {
-        "dev": "tsup --watch --onSuccess \"pnpm start\"",
-        "build": "tsup --minify ",
-        "start": "node dist/index.js",
-        "test": "vitest",
-        "release": "npm run typecheck && release-it"
-    },
-    "keywords": [
-        "template",
-        "npm"
-    ],
-    "author": "huanxiaomang",
-    "license": "ISC",
-    "devDependencies": {
-        "tsup": "^8.1.0",
-        "typescript": "^5.5.3",
-        "vitest": "^0.34.6"
-    }
+  "name": "nano-ui-vue",
+  "version": "0.0.1",
+  "description": "",
+  "file": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch --onSuccess \"pnpm start\"",
+    "build": "tsup --minify ",
+    "start": "node dist/index.js",
+    "test": "vitest",
+    "release": " release-it"
+  },
+  "keywords": [
+    "template",
+    "npm"
+  ],
+  "author": "huanxiaomang",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "release-it": "^17.11.0"
+  }
 }
